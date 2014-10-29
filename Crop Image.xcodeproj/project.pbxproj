@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA4AC291A00DB3B00A02FF8 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4AC281A00DB3B00A02FF8 /* photo1.png */; };
+		8AA4AC2C1A00E3FE00A02FF8 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4AC2B1A00E3FE00A02FF8 /* ShowImageViewController.m */; };
 		8AB723051A00C32A00242FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB723041A00C32A00242FEF /* main.m */; };
 		8AB723081A00C32A00242FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB723071A00C32A00242FEF /* AppDelegate.m */; };
 		8AB7230B1A00C32A00242FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7230A1A00C32A00242FEF /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		8AB723101A00C32A00242FEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7230F1A00C32A00242FEF /* Images.xcassets */; };
 		8AB723131A00C32A00242FEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB723111A00C32A00242FEF /* LaunchScreen.xib */; };
 		8AB7231F1A00C32A00242FEF /* Crop_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7231E1A00C32A00242FEF /* Crop_ImageTests.m */; };
+		8AB723291A00C67800242FEF /* fruit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AB723281A00C67800242FEF /* fruit.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AA4AC281A00DB3B00A02FF8 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		8AA4AC2A1A00E3FE00A02FF8 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		8AA4AC2B1A00E3FE00A02FF8 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
 		8AB722FF1A00C32A00242FEF /* Crop Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crop Image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB723031A00C32A00242FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB723041A00C32A00242FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		8AB723181A00C32A00242FEF /* Crop ImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crop ImageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB7231D1A00C32A00242FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB7231E1A00C32A00242FEF /* Crop_ImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crop_ImageTests.m; sourceTree = "<group>"; };
+		8AB723281A00C67800242FEF /* fruit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fruit.jpg; path = ../../fruit.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +91,12 @@
 				8AB723061A00C32A00242FEF /* AppDelegate.h */,
 				8AB723071A00C32A00242FEF /* AppDelegate.m */,
 				8AB723091A00C32A00242FEF /* ViewController.h */,
+				8AA4AC281A00DB3B00A02FF8 /* photo1.png */,
 				8AB7230A1A00C32A00242FEF /* ViewController.m */,
+				8AB723281A00C67800242FEF /* fruit.jpg */,
 				8AB7230C1A00C32A00242FEF /* Main.storyboard */,
+				8AA4AC2A1A00E3FE00A02FF8 /* ShowImageViewController.h */,
+				8AA4AC2B1A00E3FE00A02FF8 /* ShowImageViewController.m */,
 				8AB7230F1A00C32A00242FEF /* Images.xcassets */,
 				8AB723111A00C32A00242FEF /* LaunchScreen.xib */,
 				8AB723021A00C32A00242FEF /* Supporting Files */,
@@ -199,8 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4AC291A00DB3B00A02FF8 /* photo1.png in Resources */,
 				8AB7230E1A00C32A00242FEF /* Main.storyboard in Resources */,
 				8AB723131A00C32A00242FEF /* LaunchScreen.xib in Resources */,
+				8AB723291A00C67800242FEF /* fruit.jpg in Resources */,
 				8AB723101A00C32A00242FEF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +235,7 @@
 				8AB7230B1A00C32A00242FEF /* ViewController.m in Sources */,
 				8AB723081A00C32A00242FEF /* AppDelegate.m in Sources */,
 				8AB723051A00C32A00242FEF /* main.m in Sources */,
+				8AA4AC2C1A00E3FE00A02FF8 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				8AB723241A00C32A00242FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AB723251A00C32A00242FEF /* Build configuration list for PBXNativeTarget "Crop ImageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				8AB723271A00C32A00242FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
